@@ -21,31 +21,31 @@
 <br>
 <br>
 
-![picture 1](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/1.PNG)
+![picture 1](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114048578-830175588.png)
 <br>
 <br>
 
-![picture 2](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/2.PNG)
+![picture 2](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114102632-662284431.png)
 <br>
 <br>
 
-![picture 3](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/3.png)
+![picture 3](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114114447-1745385117.png)
 <br>
 <br>
 
-![picture 4](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/4.png)
+![picture 4](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114157257-172852155.png)
 <br>
 <br>
 
-![picture 5](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/5.png)
+![picture 5](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114208418-1291746403.png)
 <br>
 <br>
 
-![picture 6](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/6.png)
+![picture 6](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114217082-1975801726.png)
 <br>
 <br>
 
-![picture 7](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/7.png)
+![picture 7](https://img2020.cnblogs.com/blog/830478/202006/830478-20200617114256019-77732933.png)
 <br>
 <br>
 
