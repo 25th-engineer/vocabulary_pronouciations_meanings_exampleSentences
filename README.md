@@ -21,8 +21,7 @@
 <br>
 <br>
 
-![picture 1](pictures/1.png)
-
+![picture 1](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/1.PNG)
 <br>
 <br>
 
