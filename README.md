@@ -25,7 +25,7 @@
 <br>
 <br>
 
-![picture 2](pictures/2.png)
+![picture 2](pictures/2.PNG)
 <br>
 <br>
 
