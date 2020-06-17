@@ -19,31 +19,31 @@
 不重复的单词数：144790个，有些单词仅有释义没有注音；具有例句的单词数：99756个。因为单个文件都比较大没有上传文本文件，即使上传成功直接在网页打开浏览也比较困难（更别说还有墙的限制了），因此下面这几张截图展示了3个表（均已去重）的部分数据。
 <br>
 <br>
-<img src="pictures/1.png"  alt="picture 1" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/1.PNG"  alt="picture 1" />
 <br>
 <br>
 
-<img src="pictures/2.png"  alt="picture 2" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/2.PNG"  alt="picture 2" />
 <br>
 <br>
 
-<img src="pictures/3.png"  alt="picture 3" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/3.png"  alt="picture 3" />
 <br>
 <br>
 
-<img src="pictures/4.png"  alt="picture 4" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/4.png"  alt="picture 4" />
 <br>
 <br>
 
-<img src="pictures/5.png"  alt="picture 5" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/5.png"  alt="picture 5" />
 <br>
 <br>
 
-<img src="pictures/6.png"  alt="picture 6" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/6.png"  alt="picture 6" />
 <br>
 <br>
 
-<img src="pictures/7.png"  alt="picture 7" />
+<img src="https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/7.png"  alt="picture 7" />
 <br>
 <br>
 </p>
