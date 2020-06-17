@@ -21,31 +21,31 @@
 <br>
 <br>
 
-![picture 1](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/blob/master/pictures/1.PNG)
+![picture 1](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/1.PNG)
 <br>
 <br>
 
-![picture 2](pictures/2.PNG)
+![picture 2](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/2.PNG)
 <br>
 <br>
 
-![picture 3](pictures/3.png)
+![picture 3](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/3.png)
 <br>
 <br>
 
-![picture 4](pictures/4.png)
+![picture 4](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/4.png)
 <br>
 <br>
 
-![picture 5](pictures/5.png)
+![picture 5](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/5.png)
 <br>
 <br>
 
-![picture 6](pictures/6.png)
+![picture 6](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/6.png)
 <br>
 <br>
 
-![picture 7](pictures/7.png)
+![picture 7](https://github.com/25thengineer/vocabulary_pronouciations_meanings_exampleSentences/raw/master/pictures/7.png)
 <br>
 <br>
 
