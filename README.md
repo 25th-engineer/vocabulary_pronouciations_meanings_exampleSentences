@@ -14,7 +14,7 @@
 |unduplicated_Word_Meanings_Pronounciations|去重的单词、注音、释义表|144790|
 |unduplicated_Word_Example_Sentences|去重的单词、例句表|99756|
 |unduplicated_word_pronounciations_meanings_example_sentences|去重的单词、注音、释义、例句表|144790|
-||||
+<br>
 <p>
 不重复的单词数：144790个，有些单词仅有释义没有注音；具有例句的单词数：99756个。因为单个文件都比较大没有上传文本文件，即使上传成功直接在网页打开浏览也比较困难（更别说还有墙的限制了），因此下面这几张截图展示了3个表（均已去重）的部分数据。
 </p>
