@@ -1,1 +1,1 @@
-将deduplicated_TSV_files.7z和duplicated_TSV_files.7z解压后的文件都放在这里面。
+将deduplicated_TSV_files.7z解压后的文件unduplicated_word_pronounciations_meanings_example_sentences.tsv都放在这里面。
