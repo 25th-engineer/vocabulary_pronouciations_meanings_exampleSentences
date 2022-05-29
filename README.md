@@ -1,7 +1,7 @@
 # 英语单词注音、释义与例句SQL与TSV文件
 [原README文件](./README_old.md)。
 <p> 
-<b>SQL_fiduplicated_SQL_filesles</b>、<b>duplicated_TSV_files</b>、<b>deduplicated_SQL_files</b>、与<b>deduplicated_TSV_files</b>压缩包（单个文件只有4个文件未超过100 MB限制，只能传压缩包了）里面分别包含了3个<b>.sql</b>或<b>.tsv</b>文件，由<b style="background-color:#FF0000;">PL/SQL</b>生成，包含了<b>150708</b>（有重复，实际为<b>144790</b>个）个单词的释义、注音（少部分单词无注音）与例句（<b><i>例句一般都不止一句</i></b>），单词的注音与释义主要来自<i><a href="https://cn.bing.com/dict/">Bing词典</a></i>。
+文件夹<b><i>old_SQL_TSV</i></b>下的<b>SQL_fiduplicated_SQL_filesles</b>、<b>duplicated_TSV_files</b>、<b>deduplicated_SQL_files</b>、与<b>deduplicated_TSV_files</b>压缩包（单个文件只有4个文件未超过100 MB限制，只能传压缩包了）里面分别包含了3个<b>.sql</b>或<b>.tsv</b>文件，由<b style="background-color:#FF0000;">PL/SQL</b>生成，包含了<b>150708</b>（有重复，实际为<b>144790</b>个）个单词的释义、注音（少部分单词无注音）与例句（<b><i>例句若有，一般都不止一句</i></b>），单词的注音与释义主要来自<i><a href="https://cn.bing.com/dict/">Bing词典</a></i>。
 </p>
 
 <p> 
@@ -56,7 +56,8 @@
 ___
 ***
 
-<p>在上述压缩包所包含以及截图所展示的表中，注音与释义合为一个字段，不利于后续应用，遂将注音单独列为一个字段，释义为另一字段。<b style="background-color:#FF0000;">Python</b>处理生成的<b>.tsv</b>文件分别为：<b>1_with_pronunciations</b>、<b>2_without_pronunciations</b>、<b>3_combined_version_sorted_by_consecutive_IDs</b>、<b>4_combined_version_sorted_by_nonconsecutive_IDs</b>与<b>5_combined_version_sorted_by_alphabet</b>，<b style="background-color:#FF0000;">MySQL Workbench</b>生成的<b>.sql</b>文件分别为：<b>English_Vocabulary_consecutive_IDs</b>和<b>English_Vocabulary_nonconsecutive_IDs</b>，<i><u>这两个<b>.sql</b>文件均可直接导入<b>MySQL</b>数据库</u></i>，每个文件的具体内容参见下面的表格。
+<p>在上述的几个表中，注音（若有）与释义合为一个字段，不利于后续应用，遂将注音单独列为一个字段，释义为另一字段。<b style="background-color:#FF0000;">Python</b>处理生成的<b>.tsv</b>文件分别为：<b>1_with_pronunciations</b>、<b>2_without_pronunciations</b>、<b>3_combined_version_sorted_by_consecutive_IDs</b>、<b>4_combined_version_sorted_by_nonconsecutive_IDs</b>与<b>5_combined_version_sorted_by_alphabet</b>，<b style="background-color:#FF0000;">MySQL Workbench</b>生成的<b>.sql</b>文件分别为：<b>English_Vocabulary_consecutive_IDs</b>和<b>English_Vocabulary_nonconsecutive_IDs</b>，<i><u>这两个<b>.sql</b>文件均可直接导入<b>MySQL</b>数据库</u></i>。<br>
+新文件均放置于文件夹<b><i>new_SQL_TSV</i></b>中，每个文件的具体内容参见下面的表格。
 </p>
 
 |文件名|备注|记录数|
@@ -97,7 +98,7 @@ MySQL数据表的字段组成如下表所示。
 </p>
 
 | **Field**         | **Type**      | **Null** | **Key** | **Default**       | **Extra**   |                                  
-|-------------------|---------------|----------|---------|-------------------|------------------------------------------------|------|------|------|------|
+|-------------------|---------------|----------|---------|-------------------|------------------------------------------------|
 | id                | int unsigned  | NO       | PRI     | NULL              | auto_increment                                 |
 | word              | varchar(50)   | NO       |         | NULL              |                                                |
 | pronunciation     | varchar(100)  | YES      |         | NULL              |                                                | 
