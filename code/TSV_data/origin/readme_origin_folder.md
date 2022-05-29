@@ -1,0 +1,1 @@
+将文件夹<b><i>vocabulary_pronouciations_meanings_exampleSentences/old_SQL_TSV</i></b>下的压缩包<b><i>deduplicated_TSV_files.7z</i></b>解压后的文件<b><i>unduplicated_word_pronounciations_meanings_example_sentences.tsv</i></b>都放在这里面。
