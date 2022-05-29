@@ -1,0 +1,8 @@
+Field;Type;Null;Key;Default;Extra
+id;int unsigned;NO;PRI;NULL;auto_increment
+word;varchar(50);NO;;NULL;
+pronunciation;varchar(100);YES;;NULL;
+meaning;varchar(500);NO;;NULL;
+EXAMPLE_SENTENCES;varchar(2500);YES;;NULL;
+create_time;datetime;YES;;CURRENT_TIMESTAMP;DEFAULT_GENERATED
+update_time;datetime;YES;;CURRENT_TIMESTAMP;DEFAULT_GENERATED on update CURRENT_TIMESTAMP

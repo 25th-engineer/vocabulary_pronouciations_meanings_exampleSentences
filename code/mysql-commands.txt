@@ -1,0 +1,141 @@
+-- 'id', 'word', 'pronunciation', 'meaning', 'EXAMPLE_SENTENCES'
+
+-- 6 31 74 375 2115
+
+-- 10(major) 50 100 500 2500
+
+
+-- ﻿9	grimoires		网络释义： 魔法之书；中世纪巫术之书；魔典；
+
+/*
+INSERT INTO English_Vocabulary ( word_id, word, pronunciation, meaning, EXAMPLE_SENTENCES,create_time, update_time )
+VALUES
+( 9, 'grimoires', '', '网络释义： 魔法之书；中世纪巫术之书；魔典；', '', CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP() );
+UPDATE English_Vocabulary SET pronunciation='', EXAMPLE_SENTENCES='' WHERE word_id=9;
+ALTER  TABLE English_Vocabulary CHANGE submission_date submission_datetime DATETIME;
+
+create database myDatabase;
+
+mysql --local_infile=1 -u root -p
+
+*/
+
+
+
+
+
+use myDatabase;
+
+show variables like '%secure%'; 
+
+CREATE TABLE IF NOT EXISTS `English_Vocabulary`(
+   `word_id` INT UNSIGNED,
+   `word` VARCHAR(50) NOT NULL,
+   `pronunciation` VARCHAR(100),
+   `meaning` VARCHAR(500) NOT NULL,
+   `EXAMPLE_SENTENCES` VARCHAR(2500),
+   `update_datetime` DATETIME,
+   PRIMARY KEY ( `word_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
+
+CREATE TABLE IF NOT EXISTS `English_Vocabulary`(
+   `word_id` INT UNSIGNED,
+   `word` VARCHAR(50) NOT NULL,
+   `pronunciation` VARCHAR(100),
+   `meaning` VARCHAR(500) NOT NULL,
+   `EXAMPLE_SENTENCES` VARCHAR(2500),
+    `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT 'create time',
+   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'update time',
+   PRIMARY KEY ( `word_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
+
+CREATE TABLE IF NOT EXISTS `English_Vocabulary_2`(
+   `word_id` INT UNSIGNED UNIQUE AUTO_INCREMENT,
+   `word` VARCHAR(50) NOT NULL,
+   `pronunciation` VARCHAR(100),
+   `meaning` VARCHAR(500) NOT NULL,
+   `EXAMPLE_SENTENCES` VARCHAR(2500),
+    `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT 'create time',
+   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'update time',
+   PRIMARY KEY ( `word_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4;
+
+
+LOAD DATA LOCAL INFILE 'F:/code/Python/access_TSV_Data/TSV_data/combined_version_resorted_by_id.tsv' INTO TABLE myDatabase.English_Vocabulary_2;
+
+truncate TABLE  English_Vocabulary;
+
+drop TABLE IF EXISTS English_Vocabulary;
+
+SHOW TABLES;
+
+select * from English_Vocabulary;
+
+
+ALTER TABLE `English_Vocabulary` MODIFY COLUMN  `create_time` datetime NULL DEFAULT CURRENT_TIMESTAMP;
+
+SELECT table_name,create_time FROM information_schema.TABLES WHERE table_name = 'English_Vocabulary';
+
+update English_Vocabulary set create_time=('2022-05-29 10:06:56');
+
+update English_Vocabulary_2 set create_time=('2022-05-29 11:29:56');
+
+select submission_datetime from English_Vocabulary;
+
+SELECT table_name,create_time FROM information_schema.TABLES WHERE table_name = 'English_Vocabulary';
+
+alter table English_Vocabulary  add id int unsigned UNIQUE AUTO_INCREMENT;
+
+alter table English_Vocabulary modify id int unsigned UNIQUE AUTO_INCREMENT first;
+
+alter table English_Vocabulary  drop primary key;
+
+alter table English_Vocabulary add primary key(id);
+
+ALTER TABLE English_Vocabulary DROP word_id;
+
+alter table English_Vocabulary modify column id int;
+
+ALTER TABLE English_Vocabulary MODIFY `submission_datetime` DATETIME after EXAMPLE_SENTENCES;
+
+show columns from English_Vocabulary;
+
+desc English_Vocabulary;
+
+SHOW INDEX FROM English_Vocabulary_2 from mydatabase;
+
+ALTER  TABLE  English_Vocabulary_2   DROP  INDEX  word_id;
+
+RENAME TABLE English_Vocabulary_2 TO English_Vocabulary_consecutive_ID;
+
+SELECT word from English_Vocabulary_nonconsecutive_IDs where word not in (select word from
+English_Vocabulary_consecutive_IDs);
+
+SELECT * FROM English_Vocabulary_consecutive_IDs ORDER BY word;
+
+SELECT * FROM English_Vocabulary_consecutive_IDs ORDER BY word limit 10;
+
+SELECT * FROM English_Vocabulary_consecutive_IDs ORDER BY word desc;
+
+SELECT * FROM English_Vocabulary_consecutive_IDs ORDER BY word desc limit 10;
+
+
+INSERT INTO English_Vocabulary ( word, meaning, EXAMPLE_SENTENCES  )
+VALUES
+( 'xxxxxxx', 'xxxxxxx', 'xxxxxxx' );
+
+alter talbe English_Vocabulary_2 change column word_id id INT UNSIGNED UNIQUE AUTO_INCREMENT;
+
+ALTER TABLE `English_Vocabulary` MODIFY  `submission_datetime` TIMESTAMP on update CURRENT_TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'update time';
+
+mysqldump -u root -p myDatabase > English_Vocabulary_consecutive_IDs.sql    
+
+
+SET SQL_SAFE_UPDATES = 0;
+
+SET SQL_SAFE_UPDATES = 1;
+
+\! cls;
+
+-- 144790
+
